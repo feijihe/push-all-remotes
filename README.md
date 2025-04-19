@@ -1,3 +1,5 @@
+[简体中文](/README_CN.md) | English
+
 # push
 Push to multiple remote repositories at once
 

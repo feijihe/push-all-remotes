@@ -1,3 +1,5 @@
+简体中文 | [English](/README.md)
+
 # push
 一次推送到多个远程存储库
 
