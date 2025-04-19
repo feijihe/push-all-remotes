@@ -12,7 +12,7 @@ npm install -D push-all-remotes
 ```json
 {
   "scripts": {
-    "push": "push-all-remotes --branch master -async" // 使用默认分支 develop", 
+    "push": "push-all-remotes --branch master -async"
   }
 }
 ```

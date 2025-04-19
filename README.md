@@ -12,7 +12,7 @@ npm install -D push-all-remotes
 ```json
 {
   "scripts": {
-    "push": "push-all-remotes -b <> -async" // `--branch` default: develop, 
+    "push": "push-all-remotes -b <> -async"
   }
 }
 ```
