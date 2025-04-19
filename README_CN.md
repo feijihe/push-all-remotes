@@ -1,8 +1,5 @@
 简体中文 | [English](/README.md)
 
-# push
-一次推送到多个远程存储库
-
 #### 安装配置
 
 1. 安装依赖
@@ -23,3 +20,6 @@ npm install -D push-all-remotes
 | --- | --- |
 | `--branch <分支名>` | 指定目标分支, 默认为 `develop`, `--branch`可换成`-b` |
 | `-async` | 是否开启异步推送, 默认为同步推送, 异步推送可能会出现日志混合的情况, 但会标注结果 |
+
+
+![push-successful.png](./assets/push-successful.png)
