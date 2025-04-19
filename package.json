@@ -1,0 +1,22 @@
+{
+  "name": "push-all-remotes",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Push to multiple remote repositories at once",
+  "main": "push.js",
+  "bin": {
+    "push-all-remotes": "push.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "push"
+  ],
+  "author": "feijihe",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}
