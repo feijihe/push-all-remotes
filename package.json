@@ -18,5 +18,8 @@
   "license": "MIT",
   "engines": {
     "node": ">=14"
+  },
+  "repository": {
+    "url": "https://github.com/feijihe/push-all-remotes"
   }
 }
