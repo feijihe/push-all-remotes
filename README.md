@@ -1,8 +1,5 @@
 [简体中文](/README_CN.md) | English
 
-# push
-Push to multiple remote repositories at once
-
 #### Installation and Configuration
 
 1. install package:
@@ -14,7 +11,7 @@ npm install -D push-all-remotes
 ```json
 {
   "scripts": {
-    "push": "push-all-remotes -b <> -async"
+    "push": "push-all-remotes -b develop -async"
   }
 }
 ```
