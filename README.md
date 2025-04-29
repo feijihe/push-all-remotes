@@ -16,17 +16,33 @@ npm install -D push-all-remotes
   }
 }
 ```
+ensure you have configured other remote repositories:
+```bash
+git remote
+
+# 输出:
+# origin
+# other_remote
+```
+
 you can run the script:
 ```bash
 npm run push:dev
-```
-or
-```bash
-npm run push -- -b develop -async
+
+# git push origin develop & git push other_remote develop
 ```
 or
 ```bash
 npm run push # default branch is `develop`
+
+# git push origin develop & git push other_remote develop
+
+```
+or
+```bash
+npm run push -- -b master -async
+
+# git push origin master & git push other_remote master
 ```
 
 

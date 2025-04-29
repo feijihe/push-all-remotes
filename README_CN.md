@@ -15,20 +15,34 @@ npm install -D push-all-remotes
   }
 }
 ```
+确保你已经配置了其他远程仓库:
+```bash
+git remote
+
+# 输出:
+# origin
+# other_remote
+```
+
 你可以运行脚本:
 ```bash
 npm run push:dev
-```
-or
-```bash
-npm run push -- -b develop -async
+
+# git push origin develop & git push other_remote develop
 ```
 or
 ```bash
 npm run push # 默认分支为 `develop`
+
+# git push origin develop & git push other_remote develop
+
 ```
+or
+```bash
+npm run push -- -b master -async
 
-
+# git push origin master & git push other_remote master
+```
 
 | 参数 | 描述 |
 | --- | --- |
