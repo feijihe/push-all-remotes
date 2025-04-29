@@ -11,10 +11,20 @@ npm install -D push-all-remotes
 ```json
 {
   "scripts": {
-    "push": "push-all-remotes -b develop -async"
+    "push:dev": "push-all-remotes -b develop -async",
+    "push": "push-all-remotes"
   }
 }
 ```
+you can run the script:
+```bash
+npm run push:dev
+```
+or
+```bash
+npm run push -- -b develop -async
+```
+
 
 | Parameter | Description |
 | --- | --- |

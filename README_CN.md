@@ -15,6 +15,15 @@ npm install -D push-all-remotes
   }
 }
 ```
+你可以运行脚本:
+```bash
+npm run push:dev
+```
+or
+```bash
+npm run push -- -b develop -async
+```
+
 
 | 参数 | 描述 |
 | --- | --- |
