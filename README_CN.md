@@ -23,6 +23,11 @@ or
 ```bash
 npm run push -- -b develop -async
 ```
+or
+```bash
+npm run push # 默认分支为 `develop`
+```
+
 
 
 | 参数 | 描述 |

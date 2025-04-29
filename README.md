@@ -24,6 +24,10 @@ or
 ```bash
 npm run push -- -b develop -async
 ```
+or
+```bash
+npm run push # default branch is `develop`
+```
 
 
 | Parameter | Description |
