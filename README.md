@@ -20,7 +20,7 @@ ensure you have configured other remote repositories:
 ```bash
 git remote
 
-# 输出:
+# output:
 # origin
 # other_remote
 ```
