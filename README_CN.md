@@ -48,6 +48,3 @@ npm run push -- -b master -async
 | --- | --- |
 | `--branch <分支名>` | 指定目标分支, 默认为 `develop`, `--branch`可换成`-b` |
 | `-async` | 是否开启异步推送, 默认为同步推送, 异步推送可能会出现日志混合的情况, 但会标注结果 |
-
-
-![push-successful.png](./assets/push-successful.png)

@@ -51,4 +51,3 @@ npm run push -- -b master -async
 | `--branch <branch name>` | Specify the target branch, default is `develop`. `--branch` can be replaced with `-b` |
 | `-async` | Whether to push asynchronously, the default synchronization push may have mixed logs but clear result indicators |
 
-![push-successful.png](./assets/push-successful.png)
