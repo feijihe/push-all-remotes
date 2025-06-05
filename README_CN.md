@@ -11,7 +11,8 @@ npm install -D push-all-remotes
 ```json
 {
   "scripts": {
-    "push": "push-all-remotes --branch develop -async"
+    "push:dev": "push-all-remotes -b develop -async",
+    "push": "push-all-remotes"
   }
 }
 ```
@@ -24,7 +25,7 @@ git remote
 # other_remote
 ```
 
-你可以运行脚本:
+### 使用
 ```bash
 npm run push:dev
 
@@ -44,6 +45,7 @@ npm run push -- -b master -async
 # git push origin master & git push other_remote master
 ```
 
+### 参数说明
 | 参数 | 描述 |
 | --- | --- |
 | `--branch <分支名>` | 指定目标分支, 默认为 `develop`, `--branch`可换成`-b` |

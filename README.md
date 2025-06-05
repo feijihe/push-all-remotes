@@ -25,7 +25,7 @@ git remote
 # other_remote
 ```
 
-you can run the script:
+### Usage
 ```bash
 npm run push:dev
 
@@ -45,7 +45,7 @@ npm run push -- -b master -async
 # git push origin master & git push other_remote master
 ```
 
-
+### Parameter Descriptions
 | Parameter | Description |
 | --- | --- |
 | `--branch <branch name>` | Specify the target branch, default is `develop`. `--branch` can be replaced with `-b` |
