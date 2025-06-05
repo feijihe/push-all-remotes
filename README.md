@@ -1,6 +1,6 @@
 [简体中文](/README_CN.md) | English
 
-#### Installation and Configuration
+### Installation and Configuration
 
 1. install package:
 ```bash
