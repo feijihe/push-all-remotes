@@ -8,7 +8,9 @@
     "push-all-remotes": "bin/push.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "unbuild",
+    "prepublishOnly": "nr build",
+    "release": "bumpp && npm publish"
   },
   "keywords": [
     "git",
@@ -21,5 +23,10 @@
   },
   "repository": {
     "url": "https://github.com/feijihe/push-all-remotes"
+  },
+  "devDependencies": {
+    "bumpp": "^10.2.0",
+    "tinyglobby": "^0.2.14",
+    "unbuild": "^3.5.0"
   }
 }

@@ -65,9 +65,13 @@ if (remotes.length === 0) {
   process.exit(1)
 }
 
-if (isAsync) {
-  pushAsync(remotes) // async push
+function main() {
+  if (isAsync) {
+    pushAsync(remotes) // async push
+  }
+  else {
+    pushSync(remotes) // sync push
+  }
 }
-else {
-  pushSync(remotes) // sync push
-}
+
+main()
