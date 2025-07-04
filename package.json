@@ -1,11 +1,11 @@
 {
   "name": "push-all-remotes",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "type": "module",
   "description": "Push to multiple remote repositories at once",
   "main": "push.js",
   "bin": {
-    "push-all-remotes": "bin/push.js"
+    "push-all-remotes": "bin/push.mjs"
   },
   "scripts": {
     "build": "unbuild",
@@ -15,6 +15,10 @@
   "keywords": [
     "git",
     "push"
+  ],
+  "files": [
+    "bin",
+    "dist"
   ],
   "author": "feijihe",
   "license": "MIT",
